@@ -1,0 +1,14 @@
+C:\Users\user-zaki\Documents\KinectSamplesBeta\Managed\Speech\Bin\Debug\Speech.exe
+C:\Users\user-zaki\Documents\KinectSamplesBeta\Managed\Speech\Bin\Debug\Speech.pdb
+C:\Users\user-zaki\Documents\KinectSamplesBeta\Managed\Speech\Bin\Debug\Microsoft.Speech.dll
+C:\Users\user-zaki\Documents\KinectSamplesBeta\Managed\Speech\obj\Debug\Speech.csprojResolveAssemblyReference.cache
+C:\Users\user-zaki\Documents\KinectSamplesBeta\Managed\Speech\obj\Debug\Speech.g.resources
+C:\Users\user-zaki\Documents\KinectSamplesBeta\Managed\Speech\obj\Debug\Speech.exe
+C:\Users\user-zaki\Documents\KinectSamplesBeta\Managed\Speech\obj\Debug\Speech.pdb
+C:\Users\user-zaki\Documents\Capstone\Speech\obj\Debug\Speech.exe
+C:\Users\user-zaki\Documents\Capstone\Speech\obj\Debug\Speech.pdb
+C:\Users\user-zaki\Documents\Capstone\Speech\Bin\Debug\Speech.exe
+C:\Users\user-zaki\Documents\Capstone\Speech\Bin\Debug\Speech.pdb
+C:\Users\user-zaki\Documents\Capstone\Speech\Bin\Debug\Microsoft.Speech.dll
+C:\Users\user-zaki\Documents\Capstone\Speech\obj\Debug\Speech.csprojResolveAssemblyReference.cache
+C:\Users\user-zaki\Documents\Capstone\Speech\obj\Debug\Speech.g.resources

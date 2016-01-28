@@ -1,0 +1,20 @@
+Using: Microsoft Server Speech Recognition Language - Kinect (en-US)
+Recognizing... Press ENTER to stop
+Speech Hypothesized:on
+Speech Rejected
+Speech Hypothesized:on
+Speech Recognized:on
+Speech Hypothesized:off
+Speech Recognized:off
+Speech Hypothesized:on
+Speech Rejected
+Speech Hypothesized:on
+Speech Rejected
+Speech Hypothesized:onf
+Speech Recognized:on
+Speech Hypothesized:on
+Speech Recognized:on
+Speech Hypothesized:on
+Speech Recognized:on
+
+Stopping recognizer ...
