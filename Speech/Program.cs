@@ -31,9 +31,13 @@ namespace Speech
                 {
                     //declare commands to be used
                     var commands = new Choices();
-                    commands.Add("on");
+                    commands.Add("activate");
                     commands.Add("off");
-                    //commands.Add("retrieve");
+                    commands.Add("open");
+                    commands.Add("manual");
+                    commands.Add("hold");
+                    commands.Add("land");
+                    commands.Add("stabilize");
 
                     var gb = new GrammarBuilder {Culture = ri.Culture};
                     //Specify the culture to match the recognizer in case we are running in a different culture.                                 
@@ -44,7 +48,7 @@ namespace Speech
 
                     sre.LoadGrammar(g);
                     sre.SpeechRecognized += SreSpeechRecognized;
-                    sre.SpeechRecognitionRejected += SreSpeechRecognitionRejected;
+                    sre.SpeechRecognitionRejected += SreSpeechRejected;
 
                     using (Stream s = source.Start())
                     {
@@ -75,7 +79,7 @@ namespace Speech
             return SpeechRecognitionEngine.InstalledRecognizers().Where(matchingFunc).FirstOrDefault();
         }
 
-        static void SreSpeechRecognitionRejected(object sender, SpeechRecognitionRejectedEventArgs e)
+        static void SreSpeechRejected(object sender, SpeechRecognitionRejectedEventArgs e)
         {
 			Console.WriteLine("\nSpeech Rejected");
         }

@@ -16,5 +16,5 @@ DEBUG;TRACE
 13673347688
 KinectDepthViewer.xaml;KinectColorViewer.xaml;KinectDiagnosticViewer.xaml;
 
-True
+False
 

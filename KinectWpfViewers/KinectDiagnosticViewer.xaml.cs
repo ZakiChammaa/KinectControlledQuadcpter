@@ -154,7 +154,8 @@ namespace Microsoft.Samples.Kinect.WpfViewers
                                      where s.TrackingState == SkeletonTrackingState.Tracked
                                      select s).FirstOrDefault();
             KinectNui.Vector HandRight = skeleton.Joints[JointID.HandRight].Position;
-            Console.WriteLine(@"{0},{1},{2}", HandRight.X, HandRight.Y, HandRight.Z);
+            KinectNui.Vector HandLeft = skeleton.Joints[JointID.HandLeft].Position;
+            Console.WriteLine(@"{0},{1},{2},{3},{4},{5}", HandRight.X, HandRight.Y, HandRight.Z, HandLeft.X, HandLeft.Y, HandLeft.Z);
         }
 
         private Polyline getBodySegment(Microsoft.Research.Kinect.Nui.JointsCollection joints, Brush brush, params JointID[] ids)
